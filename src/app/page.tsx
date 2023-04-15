@@ -1,9 +1,15 @@
 import Image from 'next/image';
-import { Home as HomeIcon, Search, Library, PlusSquare, Heart, ChevronLeft, ChevronRight, Play } from 'lucide-react';
+import { Home as HomeIcon, Search, Library, PlusSquare, Heart, ChevronLeft, ChevronRight, Play, CheckCircleIcon } from 'lucide-react';
 
 export default function Home() {
   return (
     <div className='h-screen flex flex-col'>
+      <div className='flex items-center justify-center bg-green-600 text-zinc-50 mb-4'>
+        <span className='flex items-center gap-4 p-2 text-xs'>
+          <CheckCircleIcon className='h-4 w-4' />
+          Ambiente de produção
+        </span>
+      </div>
       <div className='flex flex-1'>
         <aside className='w-72 bg-zinc-950 p-6'>
           <nav className='space-y-5'>
