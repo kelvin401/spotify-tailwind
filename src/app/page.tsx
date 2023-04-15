@@ -1,9 +1,15 @@
 import Image from 'next/image';
-import { Home as HomeIcon, Search, Library, PlusSquare, Heart, ChevronLeft, ChevronRight, Play } from 'lucide-react';
+import { Home as HomeIcon, AlertCircleIcon, Search, Library, PlusSquare, Heart, ChevronLeft, ChevronRight, Play } from 'lucide-react';
 
 export default function Home() {
   return (
     <div className='h-screen flex flex-col'>
+      <div className='flex items-center justify-center bg-yellow-300 text-zinc-800 mb-4'>
+        <span className='flex items-center gap-4 p-2 text-xs'>
+          <AlertCircleIcon className='h-4 w-4' />
+          Ambiente de desenvolvimento
+        </span>
+      </div>
       <div className='flex flex-1'>
         <aside className='w-72 bg-zinc-950 p-6'>
           <nav className='space-y-5'>
@@ -97,7 +103,7 @@ export default function Home() {
             </a>
           </div>
 
-          <h2 className='font-semibold text-2xl mt-10'>Made for Sony Moore</h2>
+          <h2 className='font-semibold text-2xl mt-10'>Made for Kelvin Carvalho</h2>
 
           <div className='grid grid-cols-8 gap-4 mt-4'>
             <a href="" className='bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10'>
