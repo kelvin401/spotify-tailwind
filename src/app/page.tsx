@@ -97,7 +97,7 @@ export default function Home() {
             </a>
           </div>
 
-          <h2 className='font-semibold text-2xl mt-10'>Made for Tony Stark</h2>
+          <h2 className='font-semibold text-2xl mt-10'>Made for Sony Moore</h2>
 
           <div className='grid grid-cols-8 gap-4 mt-4'>
             <a href="" className='bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10'>
