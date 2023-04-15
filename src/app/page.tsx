@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Home as HomeIcon, AlertCircleIcon, Search, Library, PlusSquare, Heart, ChevronLeft, ChevronRight, Play, Repeat, SkipForward, Shuffle, SkipBack, Mic2, LayoutList, Laptop2, Volume, Maximize2 } from 'lucide-react';
+import { AlertCircleIcon, ChevronLeft, ChevronRight, Play } from 'lucide-react';
 import { Sidebar } from '../components/Sidebar';
 import { Footer } from '../components/Footer';
 
@@ -99,7 +99,7 @@ export default function Home() {
               <strong className='font-semibold'>Daily Mix 1</strong>
               <span className='text-xs text-zinc-500'>Twenty One Pilots, MGK, Charlie Brow JR. and more</span>
             </a>
-            <a href='' className='bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10'>
+            <a href="" className='bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10'>
               <Image src='/album.jpg' className='w-full' width={120} height={120} alt='capa do album do Skrillex' />
               <strong className='font-semibold'>Daily Mix 1</strong>
               <span className='text-xs text-zinc-500'>Twenty One Pilots, MGK, Charlie Brow JR. and more</span>
