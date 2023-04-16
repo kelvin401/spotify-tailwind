@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { AlertCircleIcon, ChevronLeft, ChevronRight, Play } from 'lucide-react';
 import { Sidebar } from '../components/Sidebar';
+import { Chat } from '../components/Chat';
 import { Footer } from '../components/Footer';
 
 export default function Home() {
@@ -106,6 +107,9 @@ export default function Home() {
             </a>
           </div>
         </main>
+
+        <Chat />
+
       </div>
 
       <Footer />
