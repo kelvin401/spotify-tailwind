@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { AlertCircleIcon, ChevronLeft, ChevronRight, Play } from 'lucide-react';
+import { CheckCircleIcon, ChevronLeft, ChevronRight, Play } from 'lucide-react';
 import { Sidebar } from '../components/Sidebar';
 import { Chat } from '../components/Chat';
 import { Footer } from '../components/Footer';
@@ -23,16 +23,16 @@ export default function Home() {
             </div>
 
             <div className='flex items-center justify-center '>
-              <span className='flex items-center gap-4 p-2 text-xs rounded-full text-zinc-900 font-semibold border-solid border-1 bg-yellow-300'>
-                <AlertCircleIcon />
-                Ambiente de desenvolvimento
+              <span className='flex items-center gap-2 p-2 text-xs rounded-full text-zinc-50 font-semibold border-solid border-1 bg-green-600'>
+                <CheckCircleIcon size={20} />
+                Conta verificada
               </span>
             </div>
           </div>
 
           <h1 className='font-semibold text-3xl mt-10'>Good Afternoon</h1>
 
-          <div className='grid grid-cols-3 gap-4 mt-4'>
+          <div className='grid grid-cols-3 gap-4 mt-4 max-2xl:flex max-2xl:flex-col'>
             <a href='' className='bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors'>
               <Image src='/album.jpg' width={104} height={104} alt='capa do album do Skrillex' />
               <strong>Bangarang</strong>
@@ -79,7 +79,7 @@ export default function Home() {
 
           <h2 className='font-semibold text-2xl mt-10'>Made for Kelvin Carvalho</h2>
 
-          <div className='grid grid-cols-5 gap-4 mt-4'>
+          <div className='grid grid-cols-5 gap-4 mt-4 max-2xl:flex max-2xl:flex-col'>
             <a href="" className='bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10'>
               <Image src='/album.jpg' className='w-full' width={120} height={120} alt='capa do album do Skrillex' />
               <strong className='font-semibold'>Daily Mix 1</strong>

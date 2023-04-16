@@ -3,7 +3,7 @@ import { Shuffle, SkipBack, Play, SkipForward, Repeat, Mic2, LayoutList, Laptop2
 
 export function Footer() {
   return (
-    <footer className='bg-zinc-800 border-t border-zinc-700 px-6 py-4 flex items-center justify-between'>
+    <footer className='bg-zinc-800 border-t border-zinc-700 px-6 py-4 flex items-center justify-between max-2xl:flex max-2xl:flex-col max-2xl:gap-4'>
       <div className='flex items-center gap-2'>
         <Image src='/album.jpg' className='w-full' width={56} height={56} alt='capa do album do Skrillex' />
         <div className='flex items-flex flex-col'>
